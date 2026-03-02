@@ -46,15 +46,15 @@ export default function BookingCard({ tour, siteData }: { tour: Tour; siteData: 
   }
 
   return (
-    <div className="sticky top-24 bg-[#1a3320] border border-[#23482c] rounded-2xl p-6 shadow-2xl">
-      <div className="flex justify-between items-end mb-6 border-b border-[#23482c] pb-6">
+    <div className="sticky top-24 bg-forest rounded-2xl p-6 shadow-2xl border border-white/10">
+      <div className="flex justify-between items-end mb-6 border-b border-white/10 pb-6">
         <div>
-          <p className="text-slate-400 text-sm mb-1">Başlangıç Fiyatı</p>
+          <p className="text-white/60 text-sm mb-1">Başlangıç Fiyatı</p>
           <div className="flex items-baseline gap-1">
             <span className="text-3xl font-bold text-white">
               {tour.currency}{tour.startingPrice.toLocaleString('tr-TR')}
             </span>
-            <span className="text-sm text-slate-400">/ {tour.priceNote}</span>
+            <span className="text-sm text-white/50">/ {tour.priceNote}</span>
           </div>
         </div>
         {tour.discount && (
@@ -66,21 +66,21 @@ export default function BookingCard({ tour, siteData }: { tour: Tour; siteData: 
 
       <div className="space-y-4">
         <div>
-          <label className="block text-sm font-medium text-slate-300 mb-2">Tarih Seçin</label>
+          <label className="block text-sm font-medium text-white/70 mb-2">Tarih Seçin</label>
           <input
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
-            className="w-full bg-[#112215] border border-[#23482c] text-white rounded-lg p-3 focus:ring-accent focus:border-accent"
+            className="w-full bg-forest-light border border-white/20 text-white rounded-lg p-3 focus:ring-accent focus:border-accent"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-300 mb-2">Saat</label>
+          <label className="block text-sm font-medium text-white/70 mb-2">Saat</label>
           <select
             value={timeSlot}
             onChange={(e) => setTimeSlot(e.target.value)}
-            className="w-full bg-[#112215] border border-[#23482c] text-white rounded-lg p-3 focus:ring-accent focus:border-accent"
+            className="w-full bg-forest-light border border-white/20 text-white rounded-lg p-3 focus:ring-accent focus:border-accent"
           >
             {tour.timeSlots.map((slot) => (
               <option key={slot}>{slot}</option>
@@ -89,22 +89,22 @@ export default function BookingCard({ tour, siteData }: { tour: Tour; siteData: 
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-300 mb-2">Kişi Sayısı</label>
-          <div className="flex items-center justify-between bg-[#112215] border border-[#23482c] rounded-lg p-1">
+          <label className="block text-sm font-medium text-white/70 mb-2">Kişi Sayısı</label>
+          <div className="flex items-center justify-between bg-forest-light border border-white/20 rounded-lg p-1">
             <button
               type="button"
               onClick={() => setPersons(Math.max(1, persons - 1))}
-              className="size-10 flex items-center justify-center text-slate-400 hover:text-white hover:bg-[#23482c] rounded transition-colors"
+              className="size-10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/10 rounded transition-colors"
             >
               <span className="material-symbols-outlined">remove</span>
             </button>
             <span className="text-white font-bold">
-              {persons} {persons === 1 ? 'Yetişkin' : 'Yetişkin'}
+              {persons} Yetişkin
             </span>
             <button
               type="button"
               onClick={() => setPersons(persons + 1)}
-              className="size-10 flex items-center justify-center text-slate-400 hover:text-white hover:bg-[#23482c] rounded transition-colors"
+              className="size-10 flex items-center justify-center text-white/50 hover:text-white hover:bg-white/10 rounded transition-colors"
             >
               <span className="material-symbols-outlined">add</span>
             </button>
@@ -122,7 +122,7 @@ export default function BookingCard({ tour, siteData }: { tour: Tour; siteData: 
             <span>Hemen Yer Ayırt</span>
             <span className="material-symbols-outlined text-xl">send</span>
           </a>
-          <p className="text-center text-xs text-slate-500 mt-3 flex items-center justify-center gap-1">
+          <p className="text-center text-xs text-white/40 mt-3 flex items-center justify-center gap-1">
             <span className="material-symbols-outlined text-sm">chat</span>
             WhatsApp üzerinden anında yanıt alın.
           </p>
@@ -130,19 +130,19 @@ export default function BookingCard({ tour, siteData }: { tour: Tour; siteData: 
       </div>
 
       {/* WhatsApp Support */}
-      <div className="mt-6 pt-6 border-t border-[#23482c]">
+      <div className="mt-6 pt-6 border-t border-white/10">
         <h5 className="text-white font-medium mb-3 text-sm">Sorularınız mı var?</h5>
         <a
           href={`https://wa.me/${siteData.whatsapp}?text=Merhaba!%20${encodeURIComponent(tour.name)}%20hakkında%20bilgi%20almak%20istiyorum.`}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 text-slate-300 hover:text-accent transition-colors p-3 rounded-lg border border-[#23482c] hover:border-accent/50 bg-[#112215]"
+          className="flex items-center gap-3 text-white/60 hover:text-white transition-colors p-3 rounded-lg border border-white/10 hover:border-accent/50 hover:bg-white/5"
         >
           <div className="bg-accent/10 rounded-full p-2">
             <span className="material-symbols-outlined text-accent text-xl">chat</span>
           </div>
           <div className="text-sm">
-            <span className="block text-xs text-slate-500">WhatsApp Destek</span>
+            <span className="block text-xs text-white/40">WhatsApp Destek</span>
             {siteData.phone}
           </div>
         </a>
