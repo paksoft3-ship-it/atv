@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Mehmet Aslan",
+    "role": "Baş Rehber",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9GLqAgHXv2YJLmmk2PnaNpnlAeNL_l8Nyb-dE_B2JOFtTs3DUplWa5KRR0loa6mFJ5FiJcRzK206mZUcR3mXBMUigtCdyLC7EGqj4JX1nQUHzncnVEfP6pPL4vHUNO2SOvE6cOjkdkabFILaeEeFjkdEh9UU9wILADNgE6WJFvk3nyJui2_HHB0lINLETLbjRPVIOdJjesUnGaenKuNK5E_oDjz8CrkE9A7YeGMIUfqRh5BDm56tN90b7ULfX3MJqtXZut1IbsUw",
+    "description": "10 yıllık deneyimiyle parkurları en iyi bilen kişi."
+  },
+  {
+    "id": 2,
+    "name": "Burak Yılmaz",
+    "role": "ATV Eğitmeni",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCG3YzinPoRIMTQTauaSiPIc9z-7OfVi7wABhWhSL0k4xbH0AHL3jR8rvbHMbm6bSfj8TvstrYpsnQ21zjXYX7VCUTVoT1gzxDkb21O4smZbIrnT1h2X4kMsp_xM0GUPi3kbRb_qEoNtR6H2zAQgaw_yUlLhGzqOmlb6uo4s-Sy3lPXPSZKJxy6ICNRMJREdgVFv1Wrg20h98nIMQe3oNGYgEWq3rC2gTrhYV4ex_pNuDdVnKp2fB9AjIzKmrdWf5sw0se8ugWJe80",
+    "description": "Sertifikalı ATV eğitmeni ve parkur tasarımcısı."
+  },
+  {
+    "id": 3,
+    "name": "Ayşe Demir",
+    "role": "Binicilik Antrenörü",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAe37R65V7LMI2k8xB0AgPuNWOb7xfxaIgLGK4Bgi2xj_UT78JOf6C7Dzh5DIgdNy5An4NYkgHZqIJTKmr7eDBAxqQCSv2yji9Jqw7hmfZW-QAZOecFPp3xccRr4P1Aku97cwOa8bHay7yuoFBJYW9Wz48ORF9Z80yYeD6TtCZWbDgFDTD_njZ5XJzKQNunWZTCXl-eNMK9hRuTKX8tose3c6t0sQA-ULbxd42Z4WZd6-aHtuLAZkYVSfTCRLe_srnBbUyup9uNjDg",
+    "description": "Profesyonel atçı ve ulusal binicilik şampiyonu."
+  },
+  {
+    "id": 4,
+    "name": "Caner Öz",
+    "role": "Operasyon Müdürü",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBS967ezjM-JiPMcrsc9r7TkxLmNiQY98B5ECUrp5Q2_hZjzJfiJXunj8J0b51KGLIdCLDvOJMEf7PmlVriLwOHtmGXJSuCNr0qLy-LDtLa2txjcjuCFyN-PZqv0YiNidphFDbeDxg-IIlDhYwjXjYUkhKXbN6NPI50ebk5U1K-82WgwrcK7fVWsrDkgiT8LFetMo9Vm96YoK-ho9yi-rQjsKV2P_Ud-uucTUhuQ1v0drWeOESaBYbNYlUFomzd0etBuI4neJBbUXc",
+    "description": "Tesisin sorunsuz işleyişinden sorumlu."
+  }
+]

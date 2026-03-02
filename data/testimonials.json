@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Emre K.",
+    "initials": "EK",
+    "rating": 5,
+    "text": "Parkur gerçekten çok eğlenceliydi, özellikle göl kenarındaki manzara muhteşem. Rehber arkadaşlar çok ilgiliydi.",
+    "date": "Ekim 2023",
+    "tour": "ATV Safari"
+  },
+  {
+    "id": 2,
+    "name": "Selin E.",
+    "initials": "SE",
+    "rating": 5,
+    "text": "Haftasonu arkadaşlarla geldik, UTV turu yaptık. Araçlar yeni ve güçlü. Kesinlikle tavsiye ederim.",
+    "date": "Eylül 2023",
+    "tour": "UTV Safari"
+  },
+  {
+    "id": 3,
+    "name": "Burak Yılmaz",
+    "initials": "BY",
+    "rating": 5,
+    "text": "Rehberimiz Ahmet Bey çok ilgiliydi. Çamurlu parkurlar inanılmaz keyifliydi. Üstünüz başınız kirlenecek ama kesinlikle buna değer!",
+    "date": "Eylül 2023",
+    "tour": "ATV Safari",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1b2L-Yhgoiz57pyU5WZ29WhDpFfuqbDoF36itUnJUsuA1cAD91ddkyvpGSyvGLkR_WmLLaggbhzj1639QweRpVulx_FMexxOpTNeDO11PnmxDNvUH1He7uKFbcsniEBMDN0AP82heYnwjwX_fQjSAfGLlP5wXjgGZmm_2I5OuBuSGt5fPIeqiJcVDBj2sMKFfeXHoBTH7uO6YVd0bUIcjXIeCo6BdsD_c8xMahUnJJX_VG9j6HeOWFMVDWCHPqxlli1M6OA50HKE"
+  },
+  {
+    "id": 4,
+    "name": "Selin Demir",
+    "initials": "SD",
+    "rating": 5,
+    "text": "İlk defa ATV kullandım, başta korktum ama parkur çok güvenliydi. Zirve manzarasında mola verip fotoğraf çekildik, harikaydı.",
+    "date": "Ağustos 2023",
+    "tour": "ATV Safari",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBKiIVy35RfZ8O59j6Tb6UAmyExC6DMohcAWVR29v-VTehhnPq7NRhrJPd4vv4zjub7xvIzehGHT1mqjCrnX9qY335gBfZxcdlFQXJWEnVdQcEVxz5gIrywp4ceTOfIMGepvJAoRzQe8IY7xpl9etrYCoUjUsLbbmINCWBy2vh9z-KF9kd9JRWec0G3xxQGeYRE5L_goZVZQZJye0guUpmkShHqyZdai-ZJhYrTr9tkvmeMEBhE_4k73_hL97XlrlGaTZrdNXINii0"
+  },
+  {
+    "id": 5,
+    "name": "Caner Erkin",
+    "initials": "CE",
+    "rating": 4,
+    "text": "Ekipmanlar yeni ve temizdi. Motorların bakımı iyi yapılmıştı. 2 saat nasıl geçti anlamadık. Kesinlikle tavsiye ederim.",
+    "date": "Temmuz 2023",
+    "tour": "UTV Safari"
+  }
+]

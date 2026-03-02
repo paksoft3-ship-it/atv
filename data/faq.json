@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "Ehliyet gerekli mi?",
+    "answer": "ATV turlarımız trafiğe kapalı özel parkurda yapıldığı için ehliyet zorunluluğu yoktur. Ancak 18 yaş altı misafirlerimiz veli izni ile katılabilir.",
+    "category": "genel"
+  },
+  {
+    "id": 2,
+    "question": "Ne giymeliyim?",
+    "answer": "Rahat spor kıyafetler öneriyoruz. Parkurumuz doğa içinde olduğu için kirlenme ihtimaline karşı yedek kıyafet getirmeniz tavsiye edilir. Koruyucu ekipman (kask, yağmurluk vb.) bizden temin edilmektedir.",
+    "category": "hazırlık"
+  },
+  {
+    "id": 3,
+    "question": "Rezervasyon zorunlu mu?",
+    "answer": "Evet, özellikle hafta sonları yoğunluk yaşanabildiği için önceden rezervasyon yaptırmanız gerekmektedir. Online form veya WhatsApp üzerinden kolayca rezervasyon yapabilirsiniz.",
+    "category": "rezervasyon"
+  },
+  {
+    "id": 4,
+    "question": "Çocuklar katılabilir mi?",
+    "answer": "ATV ve UTV araçlarında yolcu olarak belirli bir yaşın üzerindeki çocuklar katılabilir. At turlarımızda çocuklar için midilli seçeneklerimiz mevcuttur.",
+    "category": "çocuklar"
+  },
+  {
+    "id": 5,
+    "question": "Kredi kartı geçerli mi?",
+    "answer": "Evet, tesisimizde kredi kartı ile ödeme yapabilirsiniz. Nakit ödeme de kabul edilmektedir.",
+    "category": "ödeme"
+  },
+  {
+    "id": 6,
+    "question": "Gruplar için indirim var mı?",
+    "answer": "10 kişi ve üzeri gruplar için özel indirim uyguluyoruz. Detaylı bilgi için lütfen bizimle iletişime geçin.",
+    "category": "gruplar"
+  },
+  {
+    "id": 7,
+    "question": "Hava yağmurlu olursa tur iptal olur mu?",
+    "answer": "Hafif yağmurlu havalarda turlarımız devam eder, yağmurluk ekipman sağlanır. Şiddetli hava koşullarında güvenlik nedeniyle iptal yapılabilir ve tam iade yapılır.",
+    "category": "hava"
+  },
+  {
+    "id": 8,
+    "question": "Otoparkınız var mı?",
+    "answer": "Evet, tesisimizde ücretsiz geniş otopark mevcuttur.",
+    "category": "ulaşım"
+  }
+]

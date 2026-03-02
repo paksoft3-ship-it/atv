@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "id": "motor-sports",
+      "name": "Motor Sporları",
+      "description": "ATV ve UTV araçlarımız ile orman safarisi.",
+      "icon": "sports_motorsports",
+      "color": "forest",
+      "packages": [
+        {
+          "name": "30 Dakika Tur",
+          "subtitle": "Kısa Keşif Turu",
+          "price": 750,
+          "currency": "₺",
+          "popular": false
+        },
+        {
+          "name": "60 Dakika Safari",
+          "subtitle": "Tam Parkur Deneyimi",
+          "price": 1250,
+          "currency": "₺",
+          "popular": true
+        }
+      ],
+      "includes": [
+        "Rehber eşliğinde tur",
+        "Kask ve yağmurluk dahil",
+        "Çamur garantili eğlence"
+      ]
+    },
+    {
+      "id": "horse-riding",
+      "name": "At Turu",
+      "description": "Sakin ve huzurlu bir doğa gezintisi.",
+      "icon": "pets",
+      "color": "earth",
+      "packages": [
+        {
+          "name": "Orman Gezintisi",
+          "subtitle": "Rehber eşliğinde tur",
+          "price": 1000,
+          "currency": "₺",
+          "unit": "Saat",
+          "popular": true
+        }
+      ],
+      "includes": [
+        "Profesyonel eğitmen eşliğinde",
+        "Temel binicilik eğitimi",
+        "Orman parkuru deneyimi"
+      ],
+      "note": "At turlarımızda güvenlik kaskı zorunludur ve fiyata dahildir."
+    }
+  ],
+  "extras": [
+    {
+      "icon": "videocam",
+      "name": "GoPro Kiralama",
+      "price": "250₺",
+      "currency": "₺"
+    },
+    {
+      "icon": "photo_camera",
+      "name": "Profesyonel Fotoğraf",
+      "price": "Sorunuz",
+      "currency": null
+    },
+    {
+      "icon": "local_cafe",
+      "name": "Çay/Kahve İkramı",
+      "price": "Ücretsiz",
+      "currency": null
+    }
+  ],
+  "policies": [
+    {
+      "icon": "group",
+      "title": "Katılımcı Sayısı",
+      "description": "Turlarımız minimum 2 araç/kişi ile hareket etmektedir."
+    },
+    {
+      "icon": "commute",
+      "title": "Araç Kapasitesi",
+      "description": "UTV araçlarımızda maksimum 4 kişi seyahat edebilir."
+    },
+    {
+      "icon": "health_and_safety",
+      "title": "Güvenlik",
+      "description": "Kask, dizlik ve yağmurluk gibi tüm güvenlik ekipmanları fiyata dahildir."
+    },
+    {
+      "icon": "event_busy",
+      "title": "İptal Politikası",
+      "description": "24 saat öncesine kadar yapılan iptallerde %100 iade garantisi."
+    }
+  ]
+}
